@@ -1,0 +1,1 @@
+HTTP est considéré comme un protocole sans état car chaque commande est exécutée indépendamment, sans aucune connaissance des commandes qui la précèdent . C'est la principale raison pour laquelle il est difficile de mettre en œuvre des sites Web qui réagissent intelligemment aux entrées des utilisateurs.
