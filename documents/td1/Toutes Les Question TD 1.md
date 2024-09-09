@@ -1,21 +1,22 @@
+***[LES QUESTION CLIQUE FORT !!!](https://slamwiki2.kobject.net/_media/sio/1_-_architecture_web.pdf)***
+
+   
+
 ***Question 1***
+_____________________________________________________________________________________________________________________________    
 
 **Méthode Get**
 
 La méthode HTTP GET demande une représentation de la ressource spécifiée. Les requêtes GET doivent uniquement être utilisées afin de récupérer des données. Elle est Sûre, idempotente et peux être mise en cache mais elle ne peux pas recevoir la requête a un corps
-
-[Info trouver](https://developer.mozilla.org/fr/docs/Web/HTTP/Methods/POST)
 
 
 **Méthode POST**
 
 La méthode HTTP POST envoie des données au serveur souvent envoyée secrètement via un formulaire HTML et a pour résultat un changement sur le serveur en contre partie elle n'est pas sûre et idempotente et peux etre mise en cache si seulement une info de péremption est incluse 
 
-[Info Trouver sur le Web](https://developer.mozilla.org/fr/docs/Web/HTTP/Methods/GET) 
-
-
 
 ***Question 2***
+_____________________________________________________________________________________________________________________________    
 
 | Information      | ***HTTP Get***  |***HTTP Post***|
 | :---        |    :----:   |          ---: |
@@ -28,6 +29,7 @@ La méthode HTTP POST envoie des données au serveur souvent envoyée secrèteme
 
 
 ***Question 3***
+_____________________________________________________________________________________________________________________________    
 
 **Le Protocole HTTP est extensible**
 
@@ -37,17 +39,20 @@ L’ensemble des règles permettant de transférer des fichiers tels que du text
 
 
 ***Question 4***
+_____________________________________________________________________________________________________________________________    
 
 HTTP est considéré comme un protocole sans état car chaque commande est exécutée indépendamment, sans aucune connaissance des commandes qui la précèdent . C'est la principale raison pour laquelle il est difficile de mettre en œuvre des sites Web qui réagissent intelligemment aux entrées des utilisateurs.
 
 L'utilisation d'un protocole sans état dans un logiciel serveur permet de simplifier son design, car on se libère de toute la gestion compliquée de l'espace mémoire requis pour enregistrer l'état des échanges en cours. Si une session cliente meurt à mi-transaction, aucune partie du système n'est tenue de procéder au nettoyage de l'état en cours du serveur. Un inconvénient majeur du design stateless réside dans la nécessité d'inclure des informations supplémentaires dans chaque requête, et ces informations supplémentaires doivent être interprétées par le serveur.
 
 ***Question 5***
+_____________________________________________________________________________________________________________________________    
 
 ![Image](https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1628807693445-MJX2ZG1CAYVBGG37CGUU/image-asset.png
 )
 
 ***Question 6***
+_____________________________________________________________________________________________________________________________    
 
 100s : Codes d’information indiquant que la demande initiée par le navigateur se poursuit.     
 
@@ -60,6 +65,7 @@ L'utilisation d'un protocole sans état dans un logiciel serveur permet de simpl
 500s : Codes d’erreur du serveur indiquant que la requête a été acceptée, mais qu’une erreur sur le serveur a empêché l’exécution de la requête.          
 
 ***Question 7***
+_____________________________________________________________________________________________________________________________    
 
 ![Image](https://lh6.googleusercontent.com/proxy/dkDJiEfpdi0F1zP07K-6kk4IIXmWNHmg75BfXJAGTEe11Zc3cRUCk0GH2qtnvB6wmz13NIKPoMpBoNlWy-E)
 
@@ -68,6 +74,7 @@ Lorsqu'un client souhaite obtenir une ressource, il la demande via une URL. Le s
 
 
 ***Question 10***
+_____________________________________________________________________________________________________________________________    
 
 
 | En-Têtes      | ***Expliquer***  |***Illustrez***|
